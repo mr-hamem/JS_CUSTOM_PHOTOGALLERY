@@ -1,3 +1,10 @@
+// dark and light mode js starts here
+let toggleBtn = document.querySelector(`button#mode-toggle`);
+toggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+});
+// dark and light mode js ends here
+// photo gallery whole js starts here
 let images = document.querySelectorAll(`.img_div img`)
 let popup = document.querySelector(`.popup`)
 let popupImg = document.querySelector(`.popup img`)
@@ -43,6 +50,13 @@ function prevImg() {
 rightArrow.addEventListener(`click`, nextImg)
 leftArrow.addEventListener(`click`, prevImg)
 function keyBoardEvent(event) { 
-
+    if (event.key == `ArrowLeft`) { 
+    prevImg()
+    }
+    if (event.key == `ArrowRight`) { 
+    nextImg()
+    }
 }
 window.addEventListener(`keyup`, keyBoardEvent)
+
+// photo gallery whole js ends here
