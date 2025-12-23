@@ -56,6 +56,9 @@ function keyBoardEvent(event) {
     if (event.key == `ArrowRight`) { 
     nextImg()
     }
+    if (event.key == `Escape`) {
+        popup.classList.remove(`show`)
+    }
 }
 window.addEventListener(`keyup`, keyBoardEvent)
 
