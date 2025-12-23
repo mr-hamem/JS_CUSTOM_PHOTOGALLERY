@@ -73,4 +73,24 @@ section .row{
     font-size: 30px;
     cursor: pointer;
 }
+.leftArrow,
+.rightArrow{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    cursor: pointer;
+}
+.leftArrow{
+    left: 50px;
+}
+.rightArrow{
+    right: 50px;
+}
 /* popup section css ends here */
