@@ -1,6 +1,6 @@
 // dark and light mode js starts here
 let toggleBtn = document.querySelector(`button#mode-toggle`);
-toggleBtn.addEventListener('click', () => {
+toggleBtn.addEventListener('click', function(){
   document.body.classList.toggle('light-mode');
 });
 // dark and light mode js ends here
