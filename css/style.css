@@ -19,6 +19,15 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+/* h1 tag css starts here */
+h1{
+    color: orange;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-top: 25px;
+}
+/* h1 tag css ends here */
 /* common css ends here */
 /* main file css starts here */
 section {
