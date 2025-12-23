@@ -42,3 +42,7 @@ function prevImg() {
 
 rightArrow.addEventListener(`click`, nextImg)
 leftArrow.addEventListener(`click`, prevImg)
+function keyBoardEvent(event) { 
+
+}
+window.addEventListener(`keyup`, keyBoardEvent)
